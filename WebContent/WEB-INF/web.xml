@@ -9,4 +9,18 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <display-name>shop1</display-name>
+  
+  <servlet>
+  	<servlet-name>shop1</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<load-on-startup>1</load-on-startup>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>shop1</servlet-name>
+  	<url-pattern>*.html</url-pattern>
+  </servlet-mapping>
+  
 </web-app>
